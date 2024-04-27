@@ -1,6 +1,6 @@
 # Application of PCA for Color Images
 
-This repository contains code demonstrating the application of Principal Component Analysis (PCA) for compressing and analyzing colored images.
+This repository is for DA623: Computing with Signals course project. It contains code demonstrating the application of Principal Component Analysis (PCA) for compressing and analyzing colored images.
 
 ## Overview
 
