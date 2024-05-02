@@ -4,7 +4,20 @@ This repository is for DA623: Computing with Signals course project. It contains
 
 ## Overview
 
-Principal Component Analysis (PCA) is a dimensionality reduction technique commonly used in image processing. It aims to reduce the complexity of image data while retaining important visual information. In this project, we apply PCA to colored images to explore its effectiveness in compression and visualization.
+In this project, we look at how PCA can be used to compress colored images. We do this by applying PCA to each of the channels of an image – red green and blue – independently in order to reduce complexity. Next, the compressed channels are joined together so as to recreate the final compressed RGB (Red Green Blue) representation.
+
+## Key Steps
+
+1. **Understanding PCA**: We delve into the fundamentals of PCA, starting from calculating them all and transforming and reconstructing data.
+
+2. **Image Quantization**: We examine image quantization which is an important part of image compression where it reduces number of different colours that can be used while keeping visual quality good enough.
+
+3. **PCA Implementation**: From scratch, we implement PCA, giving explanations for each step involved.
+
+4. **Dimensionality Reduction**: We explore the process of dimensionality reduction using PCA and determine an optimal number of principal components for compression.
+
+5. **Reconstruction**: We inverse-transform the compressed data to reconstruct the original image, allowing us to visualize the impact of compression on image quality.
+
 
 ## Contents
 
